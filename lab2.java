@@ -45,22 +45,15 @@ public class lab2 {
                 {
                     nums[j] = false;
                 }
-
             }
-            //showPrimes(nums)
         }
-
-        //for (int i = 2; i <= N; i++) 
-   //     {
-          //  if (nums[i])
-            //    System.out.println(i);
-    //    }
 
 	//call showPrimes;
         showPrimes( N, nums );
 		
 	}//main
 	
+	//add code to display primes		
     public static void showPrimes(int N, boolean[] nums)
 	{
         System.out.println("Primes up to " + N + ":"); 
@@ -71,8 +64,6 @@ public class lab2 {
                 System.out.println(i);
             }
         }
-         
-		//add code to display primes		
-	}//showPrimes
+	}
 }	
 //lab2
